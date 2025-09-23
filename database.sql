@@ -19,3 +19,4 @@ INSERT INTO buku (judul, nama_pengarang, penerbit, tahun_terbit) VALUES
        ('Dasar-dasar Mysql', 'Citra Dewi', 'Erlangga', 2019),
        ('Web Programming', 'Deni Pratama', 'MediaKita', 2022),
        ('Algoritma Pemrograman', 'Eka Lestari', 'Deepublish', 2018);
+
