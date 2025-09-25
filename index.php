@@ -31,7 +31,7 @@ $rows = $result->fetch_all(MYSQLI_ASSOC);
             <td><?php echo $row['penerbit']; ?></td>
             <td><?php echo $row['tahun_terbit']; ?></td>
             <td>
-              <a href="edit.php?id=<?= $row['id'] ?>"Edit</a>
+              <a href="edit.php?id=<?= $row['id'] ?>">Edit</a>
               <a href="hapus.php?id=<?= $row['id'] ?>"onclick="return confirm('yakin hapus data?')">Hapus</a>
         </td>
           </tr>
